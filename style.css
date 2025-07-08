@@ -180,10 +180,12 @@
     }
 
     .skills-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-      gap: 1.5rem;
-      margin-top: 2rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     gap: 1.5rem;
+     margin-top: 2rem;
     }
 
     .skill {
@@ -200,6 +202,7 @@
       background: var(--accent);
       color: white;
       transform: scale(1.1);
+      cursor: pointer;
     }
 
     #contact {
